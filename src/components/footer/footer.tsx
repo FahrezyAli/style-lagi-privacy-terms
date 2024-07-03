@@ -16,9 +16,9 @@ export const Footer = ({ className }: FooterProps) => {
             <div className={styles.details}>
                 <div>Hubungi Kami</div>
                 <div className={styles.small}>
-                    Mail: stylelagiid@gmail.com
+                    Mail: {' '} <a href='mailto:stylelagiid@gmail.com'>stylelagiid@gmail.com</a>
                     <br />
-                    Tel: 081515284076
+                    Tel: 081515284076
                     <br />
                     Jalan Pakis Gunung 1 / 34
                     <br />

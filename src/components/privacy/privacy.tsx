@@ -128,13 +128,13 @@ export const Privacy = ({ className }: AboutProps) => {
                     <p>
                         Jika Anda memiliki pertanyaan atau kekhawatiran tentang kebijakan privasi ini atau 
                         praktik privasi kami, silakan hubungi kami di {' '}
-                        <a className={styles['a']} href='stylelagiid@gmail.com'>stylelagiid@gmail.com</a>
+                        <a className={styles['a']} href='mailto:stylelagiid@gmail.com'>stylelagiid@gmail.com</a>
                         {/* */}.
                     </p>
                     Penghapusan Akun
                     <p>
                         Jika Anda ingin menghapus akun Anda, hubungi {' '}
-                        <a className={styles['a']} href='stylelagiid@gmail.com'>stylelagiid@gmail.com</a>
+                        <a className={styles['a']} href='mailto:stylelagiid@gmail.com'>stylelagiid@gmail.com</a>
                         {' '} untuk melakukan permintaan.</p>
                 </div>
             </div>
