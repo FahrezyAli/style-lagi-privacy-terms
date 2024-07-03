@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import styles from './header.module.scss';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import PlaystorePng from '../../assets/playstore.png';
 
 export interface HeaderProps {
     className?: string;
@@ -13,7 +14,7 @@ export interface HeaderProps {
 export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <a href="/">Logo</a>
+            <img src={PlaystorePng} alt="" />
             <div className={styles.menu}>
                 <NavLink
                     to="/"
@@ -22,10 +23,10 @@ export const Header = ({ className }: HeaderProps) => {
                     Home
                 </NavLink>
                 <NavLink
-                    to="/about"
+                    to="/privacy"
                     className={({ isActive }) => classNames({ [styles.active]: isActive })}
                 >
-                    About
+                    Privacy Policy
                 </NavLink>
             </div>
         </div>

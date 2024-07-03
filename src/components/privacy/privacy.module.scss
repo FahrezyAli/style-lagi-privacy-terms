@@ -1,0 +1,78 @@
+@import '@styles/theme.module.scss';
+
+.root {
+    font: $large-font;
+    display: flex;
+    flex-direction: row;
+    background-color: $snow-white;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    justify-content: center;
+    padding-right: 7em;
+    padding-left: 7em;
+    column-gap: 5em;
+}
+
+.title {
+    font: $title-font;
+    text-align: center;
+    letter-spacing: 0.4rem;
+
+    @media only screen and (max-width: $mobile-width) {
+        font-size: 3rem;
+    }
+}
+
+.paragraph {
+    margin-bottom: 1.5em;
+    font: $paragraph-font;
+
+    @media only screen and (max-width: $mobile-width) {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: medium;
+        margin-bottom: 1.5em;
+    }
+}
+
+.a {
+    text-decoration: underline;
+}
+
+.list-number{
+    margin-bottom: 1.5em;
+    margin-left: 20px;
+    font: $paragraph-font;
+    font-size: medium;
+    list-style: decimal;
+    font-weight: bold;
+    ul {
+        margin-left: 20px;
+        list-style: disc;
+        font-weight: normal;
+    }
+}
+
+.list-point {
+    margin-bottom: 1.5em;
+    margin-left: 20px;
+    font: $paragraph-font;
+    font-size: medium;
+    list-style: disc;
+}
+
+.text {
+    text-align: start;
+    width: 50vw;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.image {
+    align-self: center;
+    width: 20vw;
+}

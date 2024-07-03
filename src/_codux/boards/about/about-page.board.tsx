@@ -1,12 +1,12 @@
 import { createBoard } from '@wixc3/react-board';
 import { PageNoNavigation } from '../../board-wrappers/page-no-navigation';
-import { About } from '../../../components/about/about';
+import { Privacy } from '../../../components/privacy/privacy';
 
 export default createBoard({
-    name: 'Page-About',
+    name: 'Page-Privacy',
     Board: () => (
         <PageNoNavigation>
-            <About />
+            <Privacy />
         </PageNoNavigation>
     ),
     isSnippet: false,
