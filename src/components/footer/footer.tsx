@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './footer.module.scss';
+import PlayStoreBadge from '../../assets/playStore_badge.png';
 
 export interface FooterProps {
     className?: string;
@@ -23,6 +24,11 @@ export const Footer = ({ className }: FooterProps) => {
                     <br />
                     Surabaya, Jawa Timur
                 </div>
+            </div>
+            <div className={styles.social}>
+                <a href="/">
+                    <img src={PlayStoreBadge} className={styles['icon']} alt="" />
+                </a>
             </div>
         </div>
     );
