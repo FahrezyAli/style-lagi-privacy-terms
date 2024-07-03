@@ -11,7 +11,7 @@ export default defineConfig({
             include: '**/*.svg?react',
         }),
     ],
-    base: '',
+    base: '/style_lagi_privacy_terms/',
     resolve: {
         alias: {
             '@styles': path.resolve(__dirname, './src/styles/'),
